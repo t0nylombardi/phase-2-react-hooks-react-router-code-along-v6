@@ -5,9 +5,11 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "6",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "dev": "react-scripts start & json-server --watch db.json --port 4000",
     "start": "react-scripts start",
     "server": "json-server --watch db.json --port 4000",
     "test": "jest"
